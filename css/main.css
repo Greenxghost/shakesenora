@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#77dd77;
+  cursor:none;
+}
+div{
+  position:absolute;
+  transform:translate(-50%,-50%);
+  height:35px;
+  width:35px;
+  border-radius:50%;
+  border:2px solid black;
+}
+
+
+/**/
+
+body,
+html {
+  height: 100%;
+  display: grid;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8169642857142857) 0%,
+    rgba(250, 6, 6, 1) 100%
+  );
+}
+
+.shake {
+  font-size: 10rem;
+  margin: auto;
+  position:absolute;
+  transition: transform 500ms ease;
+}
+
+.ekahs{
+  animation: moveit 0.5s linear infinite alternate;
+}
+
+@keyframes moveit {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(-35deg);}
+  100% {transform: rotate(35deg);}
+}
+
+
+#starter{
+  position:relative;
+  width: 150px;
+  height: 80px;
+  margin: auto auto;
+}
+
