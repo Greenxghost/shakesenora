@@ -1,4 +1,4 @@
-let urlSound = "http://localhost:1234/shakesenora.mp3";
+let urlSound = "raw.githubusercontent.com/Greenxghost/shakesenora/master/asset/shakesenora.mp3";
 
 let shaker = document.getElementById('senora');
 let starter = document.getElementById('starter');
